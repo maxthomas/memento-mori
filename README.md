@@ -27,6 +27,20 @@ stack build
 stack install
 ```
 
+## Use as a command line program
+
+After building:
+
+``` shell
+memento-mori yyyy mm dd
+```
+
+e.g.
+
+``` shell
+memento-mori 1950 10 20
+```
+
 ## Use in xmobar
 
 In the future, this code will be made into an [xmobar][xmobar] plugin.
