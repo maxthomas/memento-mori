@@ -1,11 +1,11 @@
 module MementoMori
-    ( ageFloat
+    ( yearsAlive
     ) where
 
 import Data.Time
 
-ageFloat :: (RealFloat a) => Day -> UTCTime -> a
-ageFloat date time
+yearsAlive :: (RealFloat a) => Day -> UTCTime -> a
+yearsAlive date time
   | todayM == birthM && todayD == birthD = fromIntegral (todayY - birthY)
   | otherwise = realToFrac quotient
   where today = utctDay time

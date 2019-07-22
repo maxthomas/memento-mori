@@ -33,7 +33,7 @@ intsToDate ints time =
   let (y:m:d:_) = ints
       yInteger = toInteger y
       day = fromGregorian yInteger m d
-  in  ageFloat day time
+  in  yearsAlive day time
 
 
 argsToDate :: [String] -> UTCTime -> Either String Float
