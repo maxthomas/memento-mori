@@ -1,18 +1,18 @@
 name:                memento-mori
-version:             0.1.0.0
+version:             0.2.0.0
 github:              "maxthomas/memento-mori"
 license:             BSD3
 author:              "max"
-maintainer:          "max@cabeceo.co"
-copyright:           "Copyright 2019 Cabeceo, LLC"
+maintainer:          "max@maxthomas.io"
+copyright:           "Copyright Max Thomas"
 
 extra-source-files:
 - README.md
 - ChangeLog.md
 
 # Metadata used when publishing your package
-# synopsis:            Short description of your package
-# category:            Web
+synopsis:            Library and application related to days lived and accurate ages (fractions of year instead of integers).
+category:            Utility, Learning Haskell
 
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
