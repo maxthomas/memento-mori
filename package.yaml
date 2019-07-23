@@ -11,7 +11,7 @@ extra-source-files:
 - ChangeLog.md
 
 # Metadata used when publishing your package
-synopsis:            Library and application related to days lived and accurate ages (fractions of year instead of integers).
+synopsis:            Library and application related to days lived and accurate ages.
 category:            Utility, Learning Haskell
 
 # To avoid duplicated efforts in documentation and dealing with the
